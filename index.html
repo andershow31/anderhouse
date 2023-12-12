@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viagem dos sonhos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="">Pacotes</a></li>
+      <li><a href="">Taxas</a></li>
+      <li><a href="">Contato</a></li>
+    </ul>
+  </nav>
+  <br><br>
+  
+  <h1>Venha realizar a viagem dos seus sonhos</h1>
+</header>
+ 
+  
+<section id="pacotes">
+    <h2>Conheça nossos pacotes</h2>
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque sagittis sapien, sed vehicula ex interdum eu. Curabitur rutrum a diam quis euismod. Sed id rutrum mi. Sed et nunc neque. Cras eget tincidunt eros. Nam at nibh eget sem suscipit blandit. In hac habitasse platea dictumst. Maecenas nec posuere enim, nec blandit risus. Ut maximus venenatis ante ac lobortis. Proin nulla nibh, egestas sit amet faucibus et, iaculis ut mauris. Ut blandit tellus eu elit mattis, sit amet mollis neque ultricies. Praesent pretium commodo orci eget vulputate. Praesent ullamcorper ultricies mi, et tincidunt tellus placerat id. Aliquam gravida dui fermentum urna tristique, nec tempus lectus posuere. Maecenas suscipit odio mauris, ut fringilla orci ultrices ut. Donec elit risus, rutrum eu tincidunt sed, blandit consequat neque.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque sagittis sapien, sed vehicula ex interdum eu. Curabitur rutrum a diam quis euismod. Sed id rutrum mi. Sed et nunc neque. Cras eget tincidunt eros. Nam at nibh eget sem suscipit blandit. In hac habitasse platea dictumst. Maecenas nec posuere enim, nec blandit risus. Ut maximus venenatis ante ac lobortis. Proin nulla nibh, egestas sit amet faucibus et, iaculis ut mauris. Ut blandit tellus eu elit mattis, sit amet mollis neque ultricies. Praesent pretium commodo orci eget vulputate. Praesent ullamcorper ultricies mi, et tincidunt tellus placerat id. Aliquam gravida dui fermentum urna tristique, nec tempus lectus posuere. Maecenas suscipit odio mauris, ut fringilla orci ultrices ut. Donec elit risus, rutrum eu tincidunt sed, blandit consequat neque.
+      </p>  
+    <script src="script.js"></script>
+  
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <div class="figuras">
+    <figure>
+        <img src="/img/gramado.jpg" alt="Imagem de gramado">
+        <figcaption>Gramado</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/img/praia.jpg" alt="Imagem da praia de Porto Seguro">
+        <figcaption>Porto Seguro</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/img/rio.jpg" alt="Imagem aleatória">
+        <figcaption>Rio de Janeiro</figcaption>
+    </figure>     
+  </div>
+  <div class="videos">
+    <video controls width="320" height="240">
+        <source src="/video/video.mp4" type="video/mp4">
+        <source src="/video/video.ogg" type="video/ogg">
+         Seu navegador não suporta o formato do video
+    </video>
+    
+  </div>
+   
+</section>
+  <br>
+  <br><br><br><br>
+<section>
+  <caption>Tabela de preços</caption>
+  <table>
+    <thead>
+      <tr>
+        <th>Serviço</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <TR>   
+        <TD>Compra de passagem</TD>
+        <TD>R$ 100,00</TD>
+       
+      </TR>
+      <TR>
+        <TD>Reserva de Hotel</TD>
+        <TD>R$ 150,00</TD>
+       
+      </TR>
+    </tbody>
+  </table>
+</section>
+  <br><br><br>
+  <section>
+    <h2>Orçamento</h2>
+    <form action="" metod="post">
+      <fieldset>
+        <legend>Dados do usuário</legend>
+        <label>Nome:</label>
+          <input type="text" name="nome" required>
+          <br>
+          <br>
+        <label>E-mail:</label>
+          <input type="email" name="email">
+          <br><br>
+        <label>Data de ida: </label>
+          <input type="date" name="dataIda" required>
+          <br><br>
+        <label>Data de volta: </label>
+          <input type="date" name="dataVolta" required>
+          <br>
+        <label> Quantidade de pessoas</label>
+          <input type="number" name="qtdPessoas">
+          <br>
+        <label>Comentário:</label>
+          <br>
+          <textarea rows="5" name="comentário">
+          </textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Quais serviços deseja contratar?</legend>
+        <label>
+      
+        <input type="checkbox" value="Passagens" name="passagens">Compra de passagens
+          </label>
+        <label>
+        <br>
+        <input type="checkbox" value="hospedagens" name="hospedagens">Reserva de hotel
+          </label>
+        <label>
+        <br>
+        <input type="checkbox" value="veiculos" name="veiculos">Aluguel de Veículos
+          </label>
+      </fieldset>
+      <fieldset>
+        <legend> Qual a forma de pagamento</legend>
+        <label>
+          <br>
+          <input type="radio" name="pagamento" value="credito">Cartão de crédito
+          <br><br>
+          <input type="radio" name="pagamento" value="boleto">Boleto
+          <br><br>
+          <input type="radio" name="pagamento" value="pix"> Pix
+          <br><br>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Escolha o prazo para pagamento</legend>
+        <label>
+          <select name="prazoPagamento">
+            <option value="escolhapagamento" selected>Forma de pagamento</option>
+            <option value="aVista">à vista</option>
+            <option value="5x">5 vezes sem juros</option>
+            <option value="10x">10 vezes com juros</option>
+          </select>
+        </label>
+      </fieldset>
+        <br>
+        <br>
+      <button>Enviar</button>
+     
+    
+    </form>
+  </section>
+  <br><br><br>
+  <footer>
+    Desenvolvido pelo AnderShow
+  </footer>
+</body>
+
+</html>

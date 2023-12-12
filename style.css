@@ -1,0 +1,100 @@
+html {
+  height: 100%; 
+  width: 100%;
+}
+body{
+  margin:0;
+/* definições aplicadas a todo o body da pagina */
+  font-weight: 600; 
+  /* define o peso da fonte, quanto mais mais negrito */ 
+  font-family: Lato, Helvetica, Sans-serif;
+  /* familia define fontes alternativa a principal, caso o navegador não suporte */
+  font-size: 15px;
+  line-height: 1.8em;
+  /* line-height: é o espaçamento, a unidade 'em' é relativa ao font-size */
+  color: #818181;
+}
+section, footer{
+
+  margin: 40px;
+}
+h1{  
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  line-height: 1.4em;
+  text-shadow: 2px 2px 2px #ababab;
+  /*textshadow define sombras para o texto*/
+}
+header{
+  padding: 10px;
+  background-color: #f4511e;
+}
+h2{
+  font-size: 28px;
+  text-transform: uppercase;
+  /* transforma todas as letras em maiusculo */
+  color:#303030;
+}
+
+nav li a{
+/* referencia apenas o link na linha da lista */
+  padding: '10px';
+  color: white;
+  text-decoration: none;
+  /* text-decoration retira o sublinhado do link */
+}
+nav li{
+  float: left;
+    /* configura apenas a linha li da lista, alinhando a esquerda */
+  padding: 10px;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  /* alinha toda a lista a direita, list-style: none; retira o estilo de lista, tira os marcadores da lista*/
+}
+nav{
+  font-size: 15px;
+  letter-spacing: 3px;
+  /* distancia entre letras */
+  height: 50px;
+  background-color: #f03b3b;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+table{
+  width: 100%;
+  /* atribui largura da tela para a tabela */
+}
+table td{
+  /* você pode pegar elementos dentro de outros elementos, nesse caso apenas a célula (td) */
+  color:#303030;
+  padding: 5px;
+}
+table tr:nth-child(even){
+  /* pseudo-clase nth-child(even), pega o filho par(even) */
+  background-color: #e9e9e9;
+}
+table tr:nth-child(odd){
+  /* odd é o filho ímpar (odd) */
+  background-color: #bdbdbd;
+}
+table thead th{
+  background-color: #f4511e;
+}
+.figuras{
+  text-align: center;
+}
+.figuras figure{
+  display: inline-block;
+  margin: 10px;
+  text-align:left;
+}
+.figuras figure img{
+  max-height: 250px;
+  max-width: 250px; 
+}
+#pacotes .figuras, #pacotes .videos{
+  text-align: center;
+}
